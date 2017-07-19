@@ -11,6 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Controller">
    <children>
-      <Button fx:id="buttonShowWeather" layoutX="215.0" layoutY="158.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="170.0" text="Pokaż pogodę" />
+      <Button fx:id="buttonShowWeather" layoutX="215.0" layoutY="236.0" mnemonicParsing="false" prefHeight="84.0" prefWidth="170.0" text="Pokaż pogodę" />
+      <TextField fx:id="textCity" layoutX="149.0" layoutY="143.0" prefHeight="25.0" prefWidth="317.0" />
    </children>
 </AnchorPane>
